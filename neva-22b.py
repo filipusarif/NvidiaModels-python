@@ -4,7 +4,7 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-api_key = os.getenv('API_KEY_FUYU')
+api_key = os.getenv('API_KEY_NEVA')
 
 invoke_url = "https://ai.api.nvidia.com/v1/vlm/nvidia/neva-22b"
 stream = True
@@ -24,7 +24,7 @@ payload = {
   "messages": [
     {
       "role": "user",
-      "content": f'Describe what you see in this image. <img src="data:image/png;base64,{image_b64}" />'
+      "content": f'Deskripsikan apa yang kamu lihat di gambar ini, dengan estimasi jaraknya dari saya. <img src="data:image/png;base64,{image_b64}" />'
     }
   ],
   "max_tokens": 1024,
