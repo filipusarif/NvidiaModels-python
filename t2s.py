@@ -15,7 +15,7 @@ headers = {
 }
 
 data = {
-  "text": "Halo, nama saya Arif, saya berbicara dalam Bahasa Indonesia.",
+  "text": "hola i'm arif",
   "model_id": "eleven_monolingual_v1",
   "voice_settings": {
     "stability": 0.75,  
